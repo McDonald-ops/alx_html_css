@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #a8d8b9;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;       
+}
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+article {
+    flex: 2;
+    overflow-y: auto;
+    background-color: #f5f5dc;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(37, 185, 40, 0.695);
+}
+aside {
+    flex: 1;
+    overflow-y: auto;
+    background-color: #f5f5dc;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(37, 185, 40, 0.695);
+    
+}
+header {
+    background-color: #0e7c7b;
+    color: rgb(249, 251, 241);
+    padding: 1rem;
+  }
+  header ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header li.logo {
+    font-size: 1.8rem;
+    margin-right: 1rem;
+  }
+  
