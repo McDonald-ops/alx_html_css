@@ -1,0 +1,1 @@
+In this project, I will create a webpage from scratch utilizing HTML, CSS, accessibility, and responsive design.  The homepage will include a 'Header', 'What we do...', 'Our results', 'Contact us', and a 'Footer' section.
